@@ -1,0 +1,83 @@
+/* Styles for the header */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+  font-size: 12px;
+}
+.header {
+  background-image:url("../images/img2.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header img {
+  max-width: 100%;
+}
+
+/* Styles for the navigation */
+.sidenav {
+  color: lightgray;
+  background-color: #111;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 250px;
+}
+
+.sidenav a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: lightgray;
+  font-size: 24px;
+}
+
+.sidenav a:hover {
+  background-color: #ddd;
+}
+
+/* Styles for the main content area */
+.main {
+  width: 70%;
+  margin-left: 200px;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+/* Styles for the aside content area */
+aside {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 24px;
+  background-color: #111;
+  padding: 20px;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  
+  margin-top: 250px;
+}
+aside a{
+  text-decoration: none;
+  color: lightgray;
+  font-size: 24px;
+}
+/* Styles for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
